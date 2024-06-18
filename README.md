@@ -1,1 +1,1 @@
-# atlantis
+## Repositório destinado às atividades da matéria Técnicas de Programação II
