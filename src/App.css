@@ -1,0 +1,199 @@
+.link-navbar {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-header {
+    padding: 0 5%;    
+}
+.modal-body {
+    padding: 0em 2%;
+    background-color: white;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+.text {
+    padding-top: 1.3vh;
+    height: 70vh;
+}
+
+.list {
+    padding: 1em 10%;
+}
+.list h2 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.list-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5px;
+}
+.pointer {
+    cursor: pointer;
+}
+.button , .button{
+    min-width: max-content;
+    width: min-content;
+    cursor: pointer;
+    padding: 0.7em 2em;
+    color: white;
+    border-radius: 10px;
+    margin: 0.4em auto;
+}
+.cancel {
+    background-color: rgb(170, 41, 41);
+}
+.save {
+    background-color: rgb(11, 91, 165);
+}
+.secao-ativa {
+    font-weight: 600;
+    text-decoration: underline;
+}
+input , select{
+    padding: 0.5em;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px lightgray;
+    border: 1px solid gray;
+    background-color: rgb(231, 246, 255);
+    margin: 3px;
+    width: 70%;
+}
+.cliente-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.cliente-select select {
+    margin-top: 10px;
+    width: 50%;
+}
+.input-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+label {
+    font-weight: 550;
+    margin-left: 5px;
+}
+.item-container {
+    background-color: rgb(216, 240, 255);
+    border-radius: 5px;
+    padding: 0.5em 2em;
+}
+.item-sub {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.seletor-secao {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0;
+  }
+.seletor-secao div {
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-grow: 1;
+}
+.flex {
+    display: flex;
+}
+.item .tipo {
+    width: 10em;
+}
+.item .flex {
+    gap: 1em;
+}
+.item h3 {
+    margin: 0;
+}
+.cliente-info {
+    margin-top: 0.5em;
+}
+.acoes {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.acoes .icone {
+    cursor: pointer;
+}
+.detalhes {
+    margin: 0.8em 1em;  
+}
+.detalhes h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+.detalhes h4 {
+    margin: 0;
+    margin-bottom: 0.2em;
+}
+.detalhes-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detalhes-item div {
+    flex: 1 1 30em;
+    min-width: 33%;
+    overflow: hidden;
+    margin-bottom: 0.2em;
+}
+b {
+    font-weight: 550;
+}
+.cadastro-title {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.opcoes-cadastro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5%;
+    gap: 1em;
+}
+.opcoes-cadastro .button {
+    flex: 1 1 25em; 
+    text-align: center;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(11, 91, 165);
+    max-width: 25em;
+}
+.form-cadastro {
+    text-align: center;
+}
